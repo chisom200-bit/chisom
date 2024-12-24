@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECommerce</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- header section start -->
@@ -20,7 +20,7 @@
 
         <div class="icons">
             <i id="menu-btn" class='bx bx-menu'></i>
-            <i id="remove" class='bx bx-search-alt-2' ></i>
+            <i id="search-btn" class='bx bx-search-alt-2' ></i>
             <i id="cart-btn" class='bx bx-cart' ></i>
             <i id="login-btn" class='bx bxs-user-check'></i>
         </div>
@@ -34,12 +34,12 @@
     <!-- Navbar Start -->
 
     <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="team.html">Team</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="index/shop.html">Shop</a>
+        <a href="index/about.html">About</a>
+        <a href="index/team.html">Team</a>
+        <a href="index/blog.html">Blog</a>
+        <a href="index/contact.html">Contact</a>
     </nav>
 
     <!-- Navbar End -->
@@ -50,7 +50,7 @@
 
         <div class="box">
             <i class='bx bx-window-close' ></i>
-            <img src="../images/furniture1.avif" alt="" width="100px" height="100px">
+            <img src="./images/furniture1.avif" alt="" width="100px" height="100px">
             <div class="content">
                 <h3>Modern Furniture</h3>
                 <span class="quantity"> 1 </span>
@@ -61,7 +61,7 @@
         
         <div class="box">
             <i class='bx bx-window-close' ></i>
-            <img src="../images/furniture2.avif" alt="" width="100px" height="100px">
+            <img src="./images/furniture2.avif" alt="" width="100px" height="100px">
             <div class="content">
                 <h3>Modern Furniture</h3>
                 <span class="quantity"> 1 </span>
@@ -72,7 +72,7 @@
 
         <div class="box">
             <i class='bx bx-window-close' ></i>
-            <img src="../images/furniture3.avif" alt="" width="100px" height="100px">
+            <img src="./images/furniture3.avif" alt="" width="100px" height="100px">
             <div class="content">
                 <h3>Modern Furniture</h3>
                 <span class="quantity"> 1 </span>
@@ -83,7 +83,7 @@
 
         <div class="box">
             <i class='bx bx-window-close' ></i>
-            <img src="../images/furniture4.avif" alt="" width="100px" height="100px">
+            <img src="./images/furniture4.avif" alt="" width="100px" height="100px">
             <div class="content">
                 <h3>Modern Furniture</h3>
                 <span class="quantity"> 1 </span>
@@ -94,7 +94,7 @@
 
         <div class="box">
             <i class='bx bx-window-close' ></i>
-            <img src="../images/furniture5.jpg" alt="" width="100px" height="100px">
+            <img src="./images/furniture5.jpg" alt="" width="100px" height="100px">
             <div class="content">
                 <h3>Modern Furniture</h3>
                 <span class="quantity"> 1 </span>
@@ -111,7 +111,7 @@
 
     <!-- Login form Start -->
 
-
+    
     <div class="login-form">
     <form action="#">
         <h3>Login Form</h3>
@@ -130,69 +130,81 @@
 
     <!-- Login form End -->
 
-    <!-- Heading Section Start -->
 
-    <div class="heading">
-        <h3>Our Shop</h3>
-        <p><a href="home.html">Home</a> / <span>About</span></p>
-    </div>
+    
+    <!-- Home Section Start -->
+
+    <section class="home">
+        <div class="slides-container">
+
+            <div class="slide active">
+                <div class="content">
+                    <span>New Arrivals</span>
+                    <h3>Flexible Chairs</h3>
+                    <p>We Build and also Sale Modern Flexible chairs. If Interested you can contact any of our team on the avaliable social media handles</p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+                <div class="images">
+                    <img src="./images/home fur1.avif" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>New Arrivals</span>
+                    <h3>Flexible Chairs</h3>
+                    <p>We Build and also Sale Modern Flexible chairs. If Interested you can contact any of our team on the avaliable social media handles
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+                <div class="images">
+                    <img src="./images/home fur2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="slide-next" onclick="next()" class='bx bx-right-arrow-alt' ></i></div>
+        <div id="slide-prev" onclick="prev()" class='bx bx-left-arrow-alt'  ></i></div>
+    </section>
+
+    <!-- Home Section End -->
 
 
-    <!-- Heading Section End -->
 
-    <!-- About section start -->
 
-    <section class="about">
+    <!-- Banner Section End -->
 
-        <div class="image">
-            <img src="../images/sofa.avif" alt="">
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="./images/ban1.jpg" alt="">
+            <div class="content">
+                <span>Limited Offer</span>
+                <h3>Up to 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
         </div>
 
-        <div class="content">
-            <span>Welcome to our Shop</span>
-            <h3>We make your home more astonishing</h3>
-            <p>We Sell and build Modern furnitures of any Kind. Either Chairs, Table,  side stool and so on, At an Affordable price. You can Check our Blog section for more updates goods and hot deals.</p>
-            <p>You can also get true to us through our email address. Send message and we'd respond or rather you can message us through any of our teams. We'd our best to give the best services you could ever imagine</p>
-            <a href="#" class="btn">Read More</a>
+        <div class="banner">
+            <img src="./images/ban2.jpg" alt="">
+            <div class="content">
+                <span>Limited Offer</span>
+                <h3>Up to 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="./images/ban3.jpg" alt="">
+            <div class="content">
+                <span>Limited Offer</span>
+                <h3>Up to 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
         </div>
 
     </section>
 
-    <!-- services section start -->
-
-    <section class="services">
-
-        <h1 class="title"> <span>Our Services</span> <a href="#">View All >></a> </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="../images/about1.png" alt="">
-                <h3>Product Selling</h3>
-                <p>We Sell quality products without any issues.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="box">
-                <img src="../images/about2.jpg" alt="">
-                <h3>Product designing</h3>
-                <p>We give you the best design that suits your home.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="box">
-                <img src="../images/about3.jpg" alt="">
-                <h3>24 / 7 support</h3>
-                <p>We offer 24/7 support to all our clients and non-clients</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- services section end -->
-
-    <!-- About section End -->
 
     <!-- Footer Section Start -->
 
@@ -246,6 +258,6 @@
 
     <!-- Footer Section End -->
 
-    <script src="../script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
