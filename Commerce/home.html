@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- header section start -->
+
+    <header class="header">
+        <a href="home.html" class="logo"> <i class='bx bx-store'></i> FurnishMe </a>
+
+        <form action="#" class="search-form">
+            <input type="search" placeholder="Search Here..." id="search-box">
+            <label for="search-box" class='bx bx-search-alt-2' ></label>
+        </form>
+
+        <div class="icons">
+            <i id="menu-btn" class='bx bx-menu'></i>
+            <i id="search-btn" class='bx bx-search-alt-2' ></i>
+            <i id="cart-btn" class='bx bx-cart' ></i>
+            <i id="login-btn" class='bx bxs-user-check'></i>
+        </div>
+    </header>
+
+    <!-- header section start -->
+
+    <i id="closer" class='bx bx-window-close'></i>
+
+
+    <!-- Navbar Start -->
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Shopping Cart Start -->
+
+    <div class="shopping-cart">
+
+        <div class="box">
+            <i class='bx bx-window-close' ></i>
+            <img src="./images/furniture1.avif" alt="" width="100px" height="100px">
+            <div class="content">
+                <h3>Modern Furniture</h3>
+                <span class="quantity"> 1 </span>
+                <span class="multiply"> x </span>
+                <span class="price"> $140.00 </span>
+            </div>
+        </div>
+        
+        <div class="box">
+            <i class='bx bx-window-close' ></i>
+            <img src="./images/furniture2.avif" alt="" width="100px" height="100px">
+            <div class="content">
+                <h3>Modern Furniture</h3>
+                <span class="quantity"> 1 </span>
+                <span class="multiply"> x </span>
+                <span class="price"> $140.00 </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class='bx bx-window-close' ></i>
+            <img src="./images/furniture3.avif" alt="" width="100px" height="100px">
+            <div class="content">
+                <h3>Modern Furniture</h3>
+                <span class="quantity"> 1 </span>
+                <span class="multiply"> x </span>
+                <span class="price"> $140.00 </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class='bx bx-window-close' ></i>
+            <img src="./images/furniture4.avif" alt="" width="100px" height="100px">
+            <div class="content">
+                <h3>Modern Furniture</h3>
+                <span class="quantity"> 1 </span>
+                <span class="multiply"> x </span>
+                <span class="price"> $140.00 </span> 
+            </div>
+        </div>
+
+        <div class="box">
+            <i class='bx bx-window-close' ></i>
+            <img src="./images/furniture5.jpg" alt="" width="100px" height="100px">
+            <div class="content">
+                <h3>Modern Furniture</h3>
+                <span class="quantity"> 1 </span>
+                <span class="multiply"> x </span>
+                <span class="price"> $140.00 </span>
+            </div>
+        </div>
+
+        <h3 class="total"> Total : <span>$560.00</span></h3>
+        <a href="#" class="btn">Checkout Cart</a>
+
+        </div>
+    <!-- Shopping Cart End  -->
+
+    <!-- Login form Start -->
+
+    
+    <div class="login-form">
+    <form action="#">
+        <h3>Login Form</h3>
+        <input type="email" placeholder="Enter your Email" class="box">
+        <input type="password" placeholder="Enter your Password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>Forget Password? <a href="#">Click Here</a></p>
+        <p>Don't have an account? <a href="#">Create Now</a></p>
+    </form>
+    </div>
+
+
+    <!-- Login form End -->
+
+
+    
+    <!-- Home Section Start -->
+
+    <section class="home">
+        <div class="slides-container">
+
+            <div class="slide active">
+                <div class="content">
+                    <span>New Arrivals</span>
+                    <h3>Flexible Chairs</h3>
+                    <p>We Build and also Sale Modern Flexible chairs. If Interested you can contact any of our team on the avaliable social media handles</p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+                <div class="images">
+                    <img src="./images/home fur1.avif" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>New Arrivals</span>
+                    <h3>Flexible Chairs</h3>
+                    <p>We Build and also Sale Modern Flexible chairs. If Interested you can contact any of our team on the avaliable social media handles
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+                <div class="images">
+                    <img src="./images/home fur2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="slide-next" onclick="next()" class='bx bx-right-arrow-alt' ></i></div>
+        <div id="slide-prev" onclick="prev()" class='bx bx-left-arrow-alt'  ></i></div>
+    </section>
+
+    <!-- Home Section End -->
+
+
+
+
+    <!-- Banner Section End -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="./images/ban1.jpg" alt="">
+            <div class="content">
+                <span>Limited Offer</span>
+                <h3>Up to 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="./images/ban2.jpg" alt="">
+            <div class="content">
+                <span>Limited Offer</span>
+                <h3>Up to 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="./images/ban3.jpg" alt="">
+            <div class="content">
+                <span>Limited Offer</span>
+                <h3>Up to 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer Section Start -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="home.html"> <i class='bx bx-right-arrow-alt'></i> Home </a>
+                <a href="shop.html"> <i class='bx bx-right-arrow-alt'></i> Shop </a>
+                <a href="about.html"> <i class='bx bx-right-arrow-alt'></i> About </a>
+                <a href="team.html"> <i class='bx bx-right-arrow-alt'></i> Team </a>
+                <a href="blog.html"> <i class='bx bx-right-arrow-alt'></i> Blog </a>
+                <a href="contact.html"> <i class='bx bx-right-arrow-alt'></i> Contact </a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"> <i class='bx bx-right-arrow-alt'></i> My Order </a>
+                <a href="#"> <i class='bx bx-right-arrow-alt'></i> My Wishlist </a>
+                <a href="#"> <i class='bx bx-right-arrow-alt'></i> My Account </a>
+                <a href="#"> <i class='bx bx-right-arrow-alt'></i> My Favorite </a>
+                <a href="#"> <i class='bx bx-right-arrow-alt'></i> Terms of User </a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"> <i class='bx bxl-facebook' ></i> Facebook </a>
+                <a href="#"> <i class='bx bxl-twitter' ></i> Twitter </a>
+                <a href="#"> <i class='bx bxl-instagram-alt' ></i> Instagram </a>
+                <a href="#"> <i class='bx bxl-linkedin' ></i> linkedin </a>
+                <a href="#"> <i class='bx bxl-pinterest' ></i> Pinterest </a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <form action="#">
+                    <input type="email" name="" placeholder="Enter Your Email" id="">
+                    <input type="submit" value="Subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="credit">
+        Created by Raphael | All right Reserved!
+    </section>
+
+    <!-- Footer Section End -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
